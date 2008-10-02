@@ -11,3 +11,8 @@ Usage
 3. Specify /usr/bin/ruby as the Shell for the script
 4. Paste the script body into the Script text area
 5. Ensure that the build phase is at the end of the target's list of build phases 
+
+Credits
+-------
+
+The script is based on an original Perl script by Marcus S. Zarra and Matt Long available [here](http://www.cimgf.com/2008/04/13/git-and-xcode-a-git-build-number-script/).
