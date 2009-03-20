@@ -6,7 +6,7 @@
 # fail if not run from Xcode
 raise "Must be run from Xcode" unless ENV['XCODE_VERSION_ACTUAL']
 
-info_plist = "#{ENV['BUILT_PRODUCTS_DIR']}/#{ENV['WRAPPER_NAME']}/Contents/Info.plist"
+info_plist = "#{ENV['BUILT_PRODUCTS_DIR']}/#{ENV['INFOPLIST_PATH']}"
 
 # Get the current git revision hash
 revision = `/usr/local/bin/git rev-parse --short HEAD`.chomp!
