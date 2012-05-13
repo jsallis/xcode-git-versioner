@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Xcode Git Versioner : Xcode auto-versioning script for git" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Xcode Git Versioner</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jsallis/xcode-git-versioner">View on GitHub</a>
+
+          <h1 id="project_title">Xcode Git Versioner</h1>
+          <h2 id="project_tagline">Xcode auto-versioning script for git</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/jsallis/xcode-git-versioner/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/jsallis/xcode-git-versioner/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Xcode Git Versioner is an Xcode auto-versioning script written in Ruby which updates your Info.plist file CFBundleVersion to the latest git revision number</p>
+
+<h2>Usage</h2>
+
+<ol>
+<li>Right-click the target you want to add the versioning phase to (usually the target that builds your app)</li>
+<li>Select: Add -&gt; New Build Phase -&gt; New Run Script Build Phase</li>
+<li>Specify /usr/bin/ruby as the Shell for the script</li>
+<li>Paste the script body into the Script text area</li>
+<li>Ensure that the build phase is at the end of the target's list of build phases </li>
+</ol><h2>Credits</h2>
+
+<p>The script is based on an original Perl script by Marcus S. Zarra and Matt Long available <a href="http://www.cimgf.com/2008/04/13/git-and-xcode-a-git-build-number-script/">here</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Xcode Git Versioner maintained by <a href="https://github.com/jsallis">jsallis</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
